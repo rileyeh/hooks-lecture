@@ -20,3 +20,33 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.poke-card {
+  height: 290px;
+  width: 400px;
+  margin: 15px;
+  background-color: grey;
+}
+
+.poke-header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  /* background: rgb(56, 175, 255); */
+}
+
+h1 {
+  padding: 15px;
+}
+
+h1:hover {
+  cursor: pointer;
+}
